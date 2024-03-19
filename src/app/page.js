@@ -63,7 +63,7 @@ export default function Home() {
                   <AiOutlineRise className="text-xl ml-2  dark:fill-white"/>
                 </a>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Created a personal portfolio to display projects and showcase web development skills
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
@@ -82,7 +82,7 @@ export default function Home() {
                   <AiOutlineRise className="text-xl ml-2  dark:fill-white"/>
                 </a>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Full-stack implementation of a social media app allowing users to create accounts, post pictures, and interact with one another
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
@@ -99,7 +99,7 @@ export default function Home() {
                 <MdMemory className="text-5xl dark:fill-white"/>
                 <h3 className="text-2xl ml-4 bg-gradient-to-r bg-clip-text hover:from-cyan-500 hover:to-teal-500 hover:text-transparent transition duration-250 dark:text-white dark:hover:to-teal-400 dark:hover:text-transparent">Memory Allocator</h3>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Created a Memory Allocator mimicking the functionality of malloc using first-fit model and immediate coalescing
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
@@ -116,7 +116,7 @@ export default function Home() {
                   <AiOutlineRise className="text-xl ml-2  dark:fill-white"/>
                 </a>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Created the official UIUC Muslim Student Association Website to be used by over 1000 members for updates and news
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
@@ -132,7 +132,7 @@ export default function Home() {
                 <GiArtificialIntelligence className="text-5xl dark:fill-white"/>
                 <h3 className="text-2xl ml-4 bg-gradient-to-r bg-clip-text hover:from-cyan-500 hover:to-teal-500 hover:text-transparent transition duration-250 dark:text-white dark:hover:to-teal-400 dark:hover:text-transparent">K-means Clustering Model</h3>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Created a k-means clustering model highlighting areas of increased violence within the Chicago area
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
@@ -149,7 +149,7 @@ export default function Home() {
                   <AiOutlineRise className="text-xl ml-4 dark:fill-white"/>
                 </a>
               </div>
-              <p className="py-8 max-w-sm dark:text-white">
+              <p className="py-8 max-w-sm dark:text-white m-auto">
               Created a responsive web calculator app to learn the basics of JavaScript and user-friendly web development
               </p>
               <h4 className="text-xl py-2 text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Languages & Technologies</h4>
