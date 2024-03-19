@@ -53,9 +53,9 @@ export default function Home() {
             Some languages I am able to utilize include, JavaScript, Python, C, C++, Java, HTML, and CSS. Additionally, some frameworks and technologies I am proficient in include, React.js, Next.js, Node.js, Express.js, MongoDB, Tailwind CSS, Git, Docker, VS Code, and Android Studio.
             </p>
           </div>
-          <div className="lg:flex lg:flex-wrap gap-6">
+          <div className="lg:flex lg:flex-wrap gap-6 justify-center">
 
-          <div className="text-center bg-gray-50 dark:bg-gray-800 shadow-lg p-6 rounded-xl my-10">
+            <div className="text-center bg-gray-50 dark:bg-gray-800 shadow-lg p-6 rounded-xl my-10">
               <div className="flex justify-center items-center">
                 <PiFolderSimpleUser className="text-5xl dark:fill-white"/>
                 <a href="https://github.com/aryanp31/personal-portfolio-2" target="_blank" className="flex items-center">
