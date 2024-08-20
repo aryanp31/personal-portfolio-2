@@ -33,7 +33,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 font-md md:text-6xl text-transparent bg-gradient-to-r bg-clip-text from-cyan-500 to-teal-500 dark:to-teal-400">Aryan Patel</h2>
               <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Developer and designer.</h3>
               <p className="text-md py-5 leading-8 text-gray-800 mx-auto max-w-xl md:text-lg dark:text-white">
-              Hey! 👋 My name is Aryan Patel and I am a Junior at the University of Illinois at Urbana-Champaign where I am pursuing a B.S. in Statistics and Computer Science.</p>
+              Hey! 👋 My name is Aryan Patel and I am a Senior at the University of Illinois at Urbana-Champaign where I am pursuing a B.S. in Computer Science and Statistics.</p>
               <div className="text-4xl flex justify-center gap-16 py-3  dark:text-white">
                 <a href="https://linkedin.com/in/aryanpatel10" target="_blank"><AiFillLinkedin className="hover:scale-125 transition ease-in-out "/></a>
                 <a href="https://github.com/aryanp31" target="_blank"><AiFillGithub className="hover:scale-125 transition ease-in-out"/></a>
@@ -50,7 +50,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-100">
-            Some languages I am able to utilize include, JavaScript, Python, C, C++, Java, HTML, and CSS. Additionally, some frameworks and technologies I am proficient in include, React.js, Next.js, Node.js, Express.js, MongoDB, Tailwind CSS, Git, Docker, VS Code, and Android Studio.
+            Some languages I am able to utilize include, JavaScript, PHP, Python, C, C++, Java, HTML, and CSS. Additionally, some frameworks and technologies I am proficient in include, React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, Tailwind CSS, Git, Docker, VS Code, and Android Studio.
             </p>
           </div>
           <div className="lg:flex lg:flex-wrap gap-6 justify-center">
