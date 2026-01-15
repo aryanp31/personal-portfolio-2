@@ -23,7 +23,7 @@ export default function Home() {
         <ul className="flex items-center">
           <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
             className="cursor-pointer text-xl dark:fill-white"/></li>
-          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-6" href="Aryan_Patel_Resume.pdf" target="_blank">Resume</a></li>
+          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-6" href="AryanPatelResume.pdf" target="_blank">Resume</a></li>
         </ul>
       </nav>
       <main className="bg-white px-2 md:px-20 lg:px-40 dark:bg-gray-700 pt-20 lg:pt-0" id="home">
@@ -41,7 +41,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative mx-auto mt-10 overflow-hidden rounded-full w-72 h-72 md:h-96 md:w-96 md:mt-0">
-              <Image src="/aryanPortrait1.jpg" alt="Portrait of Aryan" fill style={{objectFit: "cover"}} />
+              <Image src="/aryanPortrait.jpg" alt="Portrait of Aryan" fill style={{objectFit: "cover"}} />
             </div>
           </div>
         </section>
@@ -50,7 +50,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-100">
-            Some languages I am able to utilize include, JavaScript, PHP, Python, C, C++, Java, HTML, and CSS. Additionally, some frameworks and technologies I am proficient in include, React.js, Next.js, Node.js, Express.js, MySQL, MongoDB, Tailwind CSS, Git, Docker, VS Code, and Android Studio.
+            Some languages I am able to utilize include, Java, JavaScript, Python, C, C++, PHP, HTML, and CSS. Additionally, some frameworks and technologies I am proficient in include Spring Boot, JUnit, React.js, Next.js, Node.js, Express.js, Tailwind CSS, AWS, Kubernetes, Docker, Helm, Kafka, OpenSearch, PostgreSQL, MySQL, MongoDB, Git, Gradle, CI/CD, CircleCI, PactFlow and LaunchDarkly
             </p>
           </div>
           <div className="lg:flex lg:flex-wrap gap-6 justify-center">
