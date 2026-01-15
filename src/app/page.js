@@ -18,6 +18,7 @@ export default function Home() {
       <nav className="px-8 md:px-20 lg:px-40 py-8 flex justify-between sticky top-0 bg-white dark:bg-gray-700 drop-shadow-md min-w-screen">
         <ul className="flex items-center">
           <li className="text-xl bg-gradient-to-r bg-clip-text hover:from-cyan-500 hover:to-teal-500 hover:text-transparent transition duration-250 dark:text-white dark:hover:to-teal-400 dark:hover:text-transparent"><a href="#home">Home</a></li>
+          <li className="text-xl bg-gradient-to-r bg-clip-text hover:from-cyan-500 hover:to-teal-500 hover:text-transparent transition duration-250 dark:text-white dark:hover:to-teal-400 dark:hover:text-transparent ml-6"><a href="#experience">Experience</a></li>
           <li className="text-xl bg-gradient-to-r bg-clip-text hover:from-cyan-500 hover:to-teal-500 hover:text-transparent transition duration-250 dark:text-white dark:hover:to-teal-400 dark:hover:text-transparent ml-6"><a href="#projects">Projects</a></li>
         </ul>
         <ul className="flex items-center">
@@ -46,6 +47,39 @@ export default function Home() {
           </div>
         </section>
         
+        <section id="experience" className="pt-28">
+          <div>
+            <h3 className="text-3xl py-1 dark:text-white">Experience</h3>
+            <div className="space-y-8 mt-6">
+              {/* Ritchie Bros. */}
+              <div>
+                <h4 className="text-xl font-semibold text-cyan-600 dark:text-teal-400">Software Engineer | Ritchie Bros. <span className="font-normal text-gray-600 dark:text-gray-300">July 2025 – Present</span></h4>
+                <ul className="list-disc list-inside text-md text-gray-800 dark:text-gray-100 mt-2 space-y-1">
+                  <li>Developed and maintained backend services in Java for an asset lifecycle management platform handling millions of records</li>
+                  <li>Designed and optimized data storage and search workflows using PostgreSQL & OpenSearch to support scalable querying and analytics</li>
+                  <li>Deployed and operated cloud-native microservices using AWS & Kubernetes and a CI/CD pipeline</li>
+                </ul>
+              </div>
+              {/* Shipfusion */}
+              <div>
+                <h4 className="text-xl font-semibold text-cyan-600 dark:text-teal-400">Full-Stack Software Engineer Intern | Shipfusion <span className="font-normal text-gray-600 dark:text-gray-300">June 2024 – August 2024</span></h4>
+                <ul className="list-disc list-inside text-md text-gray-800 dark:text-gray-100 mt-2 space-y-1">
+                  <li>Developed and integrated new features within an MVC architecture using PHP, JavaScript, and MySQL to streamline workflows and automate key processes</li>
+                  <li>Optimized existing code to improve user efficiency and overall productivity by 15%</li>
+                </ul>
+              </div>
+              {/* Optum */}
+              <div>
+                <h4 className="text-xl font-semibold text-cyan-600 dark:text-teal-400">Software Engineer Intern | Optum <span className="font-normal text-gray-600 dark:text-gray-300">June 2023 – August 2023</span></h4>
+                <ul className="list-disc list-inside text-md text-gray-800 dark:text-gray-100 mt-2 space-y-1">
+                  <li>Developed logic for a tool called TRAC-IT to consolidate and track over 250k assets within the enterprise</li>
+                  <li>Integrated and developed Python scripts to identify and match IP addresses/subnet masks to site codes of validated assets achieving a success rate above 90%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="projects" className="pt-28">
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
